@@ -5,7 +5,7 @@ endif()
 
 if(WIN32)    
 	set(PYTHON_BINARY ${BUILD_DIR}/python/src/external_python/run/python${PYTHON_POSTFIX}.exe)
-
+        
 	macro(cmake_to_dos_path MsysPath ResultingPath)       
    
      
